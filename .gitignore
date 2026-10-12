@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+secrets/
+credentials.json
+google-services.json
+GoogleService-Info.plist
+
+# Xcode / Swift (when application sources are added)
+DerivedData/
+build/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
